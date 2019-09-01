@@ -23,7 +23,8 @@ $sheetNames = $xlsx->getSheetNames();
 </head>
 <body>
 <h1>XLSXReader Sample</h1>
-<h2>Sheet data</h2>
+<h2><a href="https://github.com/gneustaetter/XLSXReader" target="_blank">PHP library (GitHub)</a></h2>
+<h2>Sheet data:</h2>
 
 <?php
 foreach($sheetNames as $sheetName) {
